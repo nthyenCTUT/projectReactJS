@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.active {
+    background-color: #04AA6D;
+}
+
+.App {
+    width: 1100px;
+
+    margin: 0 auto;
+
+    .header {
+        .nav {}
+    }
+
+    .content {}
+}
